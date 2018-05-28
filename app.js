@@ -7,7 +7,7 @@ function longRun(callBack) {
         while(x < 10000000000){
             x++;
         }
-        callBack("All Done First Exemple !");
+        callBack("All Done First Example !");
     }, 0);    
 }
 
