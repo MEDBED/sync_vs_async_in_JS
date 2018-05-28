@@ -12,6 +12,7 @@ function longRun(callBack) {
 }
 
 console.log (new Date().getTime());
-//so here the next instruction will be skip it and we will comeback for it the next instruction
+//so here the next instruction will be skip it and we will comeback for it
+//After that we run the next instruction
 longRun((msg) => {console.log(msg)});
 console.log (new Date().getTime());
